@@ -1,0 +1,28 @@
+{
+  "node": {
+    "7f65864838f795dc86b559b65f8a82e569a94ed11c": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.0.4_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkrishanand%2FDesktop%2FWeb3%2Fsimple-eth-wallet%2Fconfig.ts%22%2C%5B%5B%220065864838f795dc86b559b65f8a82e569a94ed11c%22%2C%22config%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    },
+    "0065864838f795dc86b559b65f8a82e569a94ed11c": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.0.4_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkrishanand%2FDesktop%2FWeb3%2Fsimple-eth-wallet%2Fconfig.ts%22%2C%5B%5B%220065864838f795dc86b559b65f8a82e569a94ed11c%22%2C%22config%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "dhQ02RGBd9Tsx+UaSr4cbb56h2/g4lZun2m+QUi4a1Q="
+}

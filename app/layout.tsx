@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Appbar } from "@/components/Appbar";
+import { Footer } from "@/components/Footer";
+import { WagmiProvider } from "wagmi";
+import { config } from "@/config";
+import { WagmiWrapper } from "./wagmiWrapper";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,7 +33,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <WagmiWrapper>
+        <Appbar />
+        <div className="min-h-screen">
+          {children}
+        </div>
+        <Footer />
+        </WagmiWrapper>
       </body>
     </html>
   );
